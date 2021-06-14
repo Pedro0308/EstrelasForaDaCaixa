@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: #FFFFFF url("rick.png");
+}
+
+main {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+}
+
+main > section:not(.recarregar) {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    background: rgb(11 11 12 / 67%);
+    box-shadow: 0 8px 32px 0 rgb(31 135 129 / 37%);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main > section img {
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+section > p {
+    color: white;
+    font-size: 20px;
+}
+
+
+.recarregar{
+    position:absolute; 
+    margin-top: 500px; 
+    width: 100; 
+    height: 50px;
+} 
+
+main > section button {
+    cursor: pointer;
+    border-radius: 4px;
+    background: rgb(11 11 12 / 67%);
+    box-shadow: 0 8px 32px 0 rgb(31 135 129 / 37%);
+    color: white;
+    font-family: EuclidBold;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+    line-height: 15px;
+    text-transform: uppercase;
+    padding: 9px 23px;
+    border: none;
+    margin: 15px 0 0;
+}
